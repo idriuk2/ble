@@ -14,6 +14,7 @@
   ```
 
 - edit `android/app/build.gradle`
+
   [signingConfigs](https://github.com/idriuk2/rntest/blob/google_maps_android/android/app/build.gradle#L112)
 
   [release](https://github.com/idriuk2/rntest/blob/google_maps_android/android/app/build.gradle#L135)
