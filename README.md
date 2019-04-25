@@ -84,6 +84,17 @@ react-native run-ios
 
   [android example screen](https://github.com/idriuk2/ble/blob/master/android_ble_screen.png)
 
+## simulate a peripheral with the mac
+  ```
+  clone https://github.com/noble/bleno
+  cd bleno
+  npm install
+  npm install git://github.com/taoyuan/node-xpc-connection.git
+  cd examples/echo
+  node main.js
+  ```
+  [issue with node.js](https://github.com/sandeepmistry/node-xpc-connection/issues/24#issuecomment-451629018)
+
 ## issues
 - no robust way to test react-native BLE app without real devices
 - no robust way to connect android with apple peripherals
