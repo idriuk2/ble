@@ -70,7 +70,7 @@ react-native run-ios
 
 ## issues
 - no robust way to test bluetooth without real devices
-- setup correct build and development environments for ios and android (settings; versions of each library, package, module, etc.)
+- setup correct build and development environments for ios and android (settings, IDEs modules and plugins versions, permissions, packages, etc.)
 
 ## interest ble-manager issues
 - `#492` iOS cant connect device after remember device (author can’t help)
