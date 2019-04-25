@@ -73,9 +73,9 @@ react-native run-ios
 - setup correct build and development environments for ios and android (settings, IDEs modules and plugins versions, permissions, packages, etc.)
 
 ## interest ble-manager issues
-- `#492` iOS cant connect device after remember device (author can’t help)
-- `#456` Bluetooth Devices not listing in android (author answer, about android 8 issues with bluetooth)
-- `#441` IOS | how to read data more than 512 bytes using BLE react native. now we can read only 512 bytes of data (author answer to try notifications)
+- `#492` iOS cant connect device after remember device (maintainer can’t help)
+- `#456` Bluetooth Devices not listing in android (maintainer answer, about android 8 issues with bluetooth)
+- `#441` IOS | how to read data more than 512 bytes using BLE react native. now we can read only 512 bytes of data (maintainer answer to try notifications)
 
 ## other react-native libraries for BLE
 - https://github.com/Polidea/react-native-ble-plx - maybe hidden marketing of Polidea (hard to setup, use polidea's native rx libraries inside, have link to their landing page)
