@@ -1,5 +1,7 @@
 # Bluetooth Low Energy (BLE) with react-native 
 
+**Bluetooth Low Energy (BLE)***. Also called *Bluetooth smart*, this technology allows peripherals to communicate by consuming much less energy than regular Bluetooth. Another major advantage is that the *user does not need to manually pair with the device* using the system settings.
+
 Library for BLE [react-native-ble-manager](https://github.com/innoveit/react-native-ble-manager)
 
 ## run ios example on simulator
