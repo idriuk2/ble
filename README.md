@@ -4,6 +4,20 @@
 
 Library for BLE [react-native-ble-manager](https://github.com/innoveit/react-native-ble-manager)
 
+[Short ios doc for BLE](https://codeburst.io/getting-started-with-bluetooth-low-energy-on-ios-ada3090fc9cc)
+
+## Terminology
+### devices types
+- **_central_** (*client*): phone (search and initiates the connection to the peripheral)
+- **_peripheral_** (*server*): heart rate monitor (exposes fields that the central can read, write or be notified)
+### communication modes
+- **_advertising_**: the peripheral sends information to be available to all the centrals around (GAP broadcasting)
+- **_connected_**: allows a central to exchange data with a peripheral (GATT protocol, one-to-one mode)
+### communication in connected mode
+- The peripheral *exposes fields* that the *central can read, write or be notified of*. Each of these fields is called a **_characteristic_**. A characteristic is also accompanied by a *descriptor* which explains it.
+- Characteristics are grouped into a **_service_**
+- Each characteristic and service is defined by a *unique identifier* called **UUID**. There are predefined UUIDs for many services and characteristics. You can find a list here: [services](https://www.bluetooth.com/specifications/gatt/services) and [characteristics](https://www.bluetooth.com/specifications/gatt/characteristics). 
+
 ## run ios example on simulator
 
 ```
