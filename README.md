@@ -85,3 +85,4 @@ react-native run-ios
 
 ## native ios libraries for BLE
 - [BlueCap](https://github.com/troystribling/BlueCap), [interest article about BLE with example](https://codeburst.io/getting-started-with-bluetooth-low-energy-on-ios-ada3090fc9cc)
+- Core Bluetooth (BLE framework developed by apple and included in the iOS SDK since iOS5)
