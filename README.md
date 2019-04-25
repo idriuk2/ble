@@ -71,7 +71,8 @@ react-native run-ios
   [android example screen](https://github.com/idriuk2/ble/blob/master/android_ble_screen.png)
 
 ## issues
-- no robust way to test bluetooth without real devices
+- no robust way to test react-native BLE app without real devices
+- no robust way to connect android with apple peripherals
 - setup correct build and development environments for ios and android (settings, IDEs modules and plugins versions, permissions, packages, etc.)
 
 ## interest ble-manager issues
@@ -81,3 +82,6 @@ react-native run-ios
 
 ## other react-native libraries for BLE
 - https://github.com/Polidea/react-native-ble-plx - maybe hidden marketing of Polidea (hard to setup, use polidea's native rx libraries inside, have link to their landing page)
+
+## native ios libraries for BLE
+- [BlueCap](https://github.com/troystribling/BlueCap), [interest article about BLE with example](https://codeburst.io/getting-started-with-bluetooth-low-energy-on-ios-ada3090fc9cc)
