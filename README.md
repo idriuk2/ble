@@ -104,6 +104,8 @@ react-native run-ios
 - scan bluetooth 
 - select PizzaSquat [android example screen](https://github.com/idriuk2/ble/blob/master/android_ble_screen.png)
 - check console in dev tools [dev tools and peripheral console screen](https://github.com/idriuk2/ble/blob/master/connect_with_peripheral_simulator_screen.png)
+- [example ui video](https://github.com/idriuk2/ble/blob/master/connect_nokia_3_with_android_pie.mp4) 
+- [central to peripheral connection video](https://github.com/idriuk2/ble/blob/master/connect_mac.mov)
 
 ## issues
 - no robust way to test react-native BLE app with ios simulator or android emulator
