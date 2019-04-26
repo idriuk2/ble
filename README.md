@@ -82,8 +82,6 @@ react-native run-ios
 
   [example release apk](https://github.com/idriuk2/ble/blob/master/ble-manager-example-app-release.apk)
 
-  [android example screen](https://github.com/idriuk2/ble/blob/master/android_ble_screen.png)
-
 ## simulate a peripheral with the mac
   ```
   clone https://github.com/noble/bleno
@@ -94,6 +92,18 @@ react-native run-ios
   node main.js
   ```
   [issue with node.js](https://github.com/sandeepmistry/node-xpc-connection/issues/24#issuecomment-451629018)
+
+## test connection
+- [run android example on device in develpment](https://github.com/idriuk2/ble#run-android-example-on-device-in-develpment)
+- 
+  ```
+  cd bleno/examples/pizza
+  node peripheral
+  ```
+- shake device and open dev tools
+- scan bluetooth 
+- select PizzaSquat [android example screen](https://github.com/idriuk2/ble/blob/master/android_ble_screen.png)
+- check console in dev tools [dev tools and peripheral console screen](https://github.com/idriuk2/ble/blob/master/connect_with_peripheral_simulator_screen.png)
 
 ## issues
 - no robust way to test react-native BLE app without real devices
