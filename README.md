@@ -106,9 +106,9 @@ react-native run-ios
 - check console in dev tools [dev tools and peripheral console screen](https://github.com/idriuk2/ble/blob/master/connect_with_peripheral_simulator_screen.png)
 
 ## issues
-- no robust way to test react-native BLE app without real devices
-- no robust way to connect android with apple peripherals
-- setup correct build and development environments for ios and android (settings, IDEs modules and plugins versions, permissions, packages, etc.)
+- no robust way to test react-native BLE app with ios simulator or android emulator
+- no robust way to connect android with apple peripherals (android phone with apple watch)
+- no robust way to setup reliable build and development environments for ios and android (settings, IDEs modules and plugins versions, permissions, packages, etc.)
 
 ## interest ble-manager issues
 - `#492` iOS cant connect device after remember device (maintainer can’t help)
